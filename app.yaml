@@ -4,9 +4,9 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files: resume/index.html
-  upload: resume/index.html
+  static_files: www/index.html
+  upload: www/index.html
 
 - url: /(.*)
-  static_files: resume/\1
-  upload: resume/(.*)
+  static_files: www/\1
+  upload: www/(.*)
